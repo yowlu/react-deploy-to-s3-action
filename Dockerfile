@@ -1,4 +1,4 @@
-FROM sleavely/node-awscli:16.10.0
+FROM sleavely/node-awscli:16.x
 
 LABEL "com.github.actions.name"="React Deploy to S3"
 LABEL "com.github.actions.description"="Build a React.js web app and sync to an AWS S3 repository"
